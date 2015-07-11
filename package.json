@@ -1,5 +1,5 @@
 {
-  "name": "generator-puppet",
+  "name": "generator-puppet-module",
   "version": "0.1.0",
   "description": "A Yeoman generator for Puppet modules.",
   "author": "Anthony Lapenna <lapenna.anthony@gmail.com>",
