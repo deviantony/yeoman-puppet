@@ -1,0 +1,3 @@
+# <%= moduleName %> Puppet module
+
+WIP
