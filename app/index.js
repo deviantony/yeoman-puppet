@@ -6,7 +6,7 @@ module.exports = generators.Base.extend({
   constructor: function () {
     generators.Base.apply(this, arguments);
     this.argument('moduleName', { type: String, required: true });
-    this.moduleName = _.camelCase(this.moduleName);
+    this.moduleName = _.snakeCase(this.moduleName);
   },
 
   prompting: function () {
@@ -29,7 +29,7 @@ module.exports = generators.Base.extend({
 
     this.prompt(prompts, function (answers) {
       this.author = answers.author;
-      this.companyName = answers.companyName;
+      this.companyName =  _.snakeCase(answers.companyName);
       done();
     }.bind(this));
   },

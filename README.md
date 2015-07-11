@@ -7,13 +7,13 @@ More information about yeoman at: http://yeoman.io/
 # Installation
 
 ````
-$ npm install -g generator-puppet
+$ npm install -g generator-puppet-module
 ````
 
 # Usage
 
 ````
-$ yo puppet moduleName
+$ yo puppet-module moduleName
 ````
 
 It will prompt you for more information such as *author* and *companyName*.
