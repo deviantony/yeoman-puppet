@@ -1,0 +1,13 @@
+{
+  "author": "<%= author %>",
+  "dependencies": [],
+  "license": "",
+  "name": "<%= companyName %>-<%= moduleName %>",
+  "operatingsystem_support": [],
+  "project_page": "",
+  "requirements": [],
+  "source": "",
+  "summary": "",
+  "tags": [],
+  "version": "0.1.0"
+}
