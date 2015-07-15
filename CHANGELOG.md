@@ -1,3 +1,8 @@
+# Release 0.3.0
+## 2015-07-15
+
+Added unit tests.
+
 # Release 0.2.0
 ## 2015-07-11
 
