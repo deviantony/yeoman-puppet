@@ -12,6 +12,9 @@
     "lodash": "^3.10.0",
     "yeoman-generator": "^0.20.1"
   },
+  "devDependencies": {
+    "mocha": "*"
+  },
   "files": [
     "app"
   ]
