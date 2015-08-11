@@ -34,5 +34,5 @@ $ npm link
 
 Test it:
 ````
-$ mocha
+$ npm test
 ````
