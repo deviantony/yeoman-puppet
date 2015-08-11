@@ -31,3 +31,8 @@ Link the module:
 ````
 $ npm link
 ````
+
+Test it:
+````
+$ npm test
+````

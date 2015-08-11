@@ -1,6 +1,6 @@
 {
   "name": "generator-puppet-module",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Yeoman generator for Puppet modules.",
   "repository": "deviantony/yeoman-puppet",
   "author": "Anthony Lapenna <lapenna.anthony@gmail.com>",
@@ -9,13 +9,16 @@
     "puppet"
   ],
   "dependencies": {
-    "lodash": "^3.10.0",
-    "yeoman-generator": "^0.20.1"
+    "lodash": "^3.10.1",
+    "yeoman-generator": "^0.20.2"
   },
   "devDependencies": {
     "mocha": "*"
   },
   "files": [
     "app"
-  ]
+  ],
+  "scripts": {
+    "test": "mocha"
+  }
 }
